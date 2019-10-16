@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <TextBox x:Name="titleTextBox" HorizontalAlignment="Left" Height="23" Margin="85,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged"/>
+        <TextBox x:Name="titleTextBox" HorizontalAlignment="Left" Height="23" Margin="76,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged"/>
         <Label x:Name="titleLabel" Content="Title" HorizontalAlignment="Left" Margin="85,38,0,0" VerticalAlignment="Top"/>
         <Label x:Name="genreLabel" Content="Genre" HorizontalAlignment="Left" Margin="85,120,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="genreTextBox" HorizontalAlignment="Left" Height="23" Margin="85,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
