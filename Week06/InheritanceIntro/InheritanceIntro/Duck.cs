@@ -7,29 +7,29 @@ using System.Windows;
 
 namespace InheritanceIntro
 {
-    public class Dog : Animal
+    public class Duck : Animal
     {
         // Inherited from Animal
-        //public string Name;
         //public int Height;
-        public string Breed;
+        //public string Name;
 
-        public void Bark()
+        public void Quack()
         {
-            MessageBox.Show("Bark");
+            MessageBox.Show("Quack");
         }
 
         // Inherited from Animal
         //public void SayName()
         //{
-        //    MessageBox.Show("My name is " + this.Name);
+        //    MessageBox.Show($"My name is {Name} and I am a duck.");
         //}
 
-        public Dog() { }
-
-        public Dog(string breed, int height, string name)
+        public Duck()
         {
-            this.Breed = breed;
+        }
+
+        public Duck(int height, string name)
+        {
             this.Height = height;
             this.Name = name;
         }
